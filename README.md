@@ -2,6 +2,8 @@
 
 **PortfolioVis_py** is a tool for multidimensional portfolio visualization built in Python and Dash. Robust metrics of risk, return, correlation structure and individual asset performance can be assessed simultaneously. 
 
+![Alt Text](https://github.com/joaotnog/PortfolioVis_py/blob/master/gif%20example.gif)
+
 ## Prerequisites
 
 The following modules are required:
