@@ -502,7 +502,7 @@ def GeneratePortfolioVis(data):
     
         point_selection = hoverData['points'][0]['text']
     
-        title = '<b>{}</b><br>{}'.format('PCA loadings', point_selection)
+        title = '<b>{}</b><br>{}'.format('PCA eigenvectors', point_selection)
         
         return {
             'data': [go.Bar(x=PCA_label(ncomp),
