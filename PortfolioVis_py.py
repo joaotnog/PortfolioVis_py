@@ -537,7 +537,7 @@ def GeneratePortfolioVis(data):
         point_selection = hoverData['points'][0]['text']
         
         
-        title = '<b>{}</b><br>{}'.format('10% Var', point_selection)
+        title = '<b>{}</b><br>{}'.format('10% VAR', point_selection)
     
         return {
             'data': [go.Scatter(
